@@ -1,17 +1,16 @@
 # [CSES Problem Set Progress](https://cses.fi/problemset/)
 
-**Username:** `sagor_roy`    
+- **Profile:** [sagor_roy](https://cses.fi/user/232484)   
 
-
-## 📊 Progress Tracker
+## 📊 Progress Tracker -![CSES Progress](https://img.shields.io/badge/CSES-4%2F400%20solved-green)
 
 | Category | Total | Solved |
 |----------|-------|--------|
-| Introductory Problems | 24 | 0 |
-| Sorting and Searching | 35 | 0 |
+| Introductory Problems | 24 | 1 |
+| Sorting and Searching | 35 | 2 |
 | Dynamic Programming | 23 | 0 |
 | Graph Algorithms | 36 | 0 |
-| Range Queries | 25 | 0 |
+| Range Queries | 25 | 1 |
 | Tree Algorithms | 16 | 0 |
 | Mathematics | 37 | 0 |
 | String Algorithms | 21 | 0 |
@@ -25,10 +24,6 @@
 | Counting Problems | 18 | 0 |
 | Additional Problems I | 30 | 0 |
 | Additional Problems II | 30 | 0 |
-| **Total** | **400** | **0** |
 
-## 📈 Summary
-- **Total Problems:** 400
-- **Solved:** 0
-- **Profile:** [sagor_roy on CSES](https://cses.fi/user/sagor_roy)
+
 ---
