@@ -2,7 +2,6 @@
 
 ![Language](https://img.shields.io/badge/language-C++-blue.svg)
 ![Progress](https://img.shields.io/badge/Progress-0%2F400-brightgreen.svg)
-![Progress Bar](https://progress-bar.dev/0/?scale=400&title=solved&width=400&suffix=/400)
 
 This repository contains my solutions to the **[CSES Problem Set](https://cses.fi/problemset/)**.  
 The goal is to practice **algorithms, data structures, and competitive programming** while tracking progress.
@@ -52,40 +51,46 @@ Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree 
 
 .
 ├── Introductory-Problems/
+
 ├── Sorting-and-Searching/
+
 ├── Dynamic-Programming/
+
 ├── Graph-Algorithms/
+
 ├── Range-Queries/
+
 ├── Tree-Algorithms/
+
 ├── Mathematics/
+
 ├── String-Algorithms/
+
 ├── Geometry/
+
 ├── Advanced-Techniques/
+
 ├── Sliding-Window-Problems/
+
 ├── Interactive-Problems/
+
 ├── Bitwise-Operations/
+
 ├── Construction-Problems/
+
 ├── Advanced-Graph-Problems/
+
 ├── Counting-Problems/
+
 ├── Additional-Problems-I/
+
 ├── Additional-Problems-II/
+
 ├── update_progress.py
+
 ├── README.md
+
 └── .github/
-
----
-
-## 💡 How Progress Updates Work
-
-- The update_progress.py script automatically updates this README:
-
-- This script is run by GitHub Actions after every successful push to `main`.
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
 
 ---
 
