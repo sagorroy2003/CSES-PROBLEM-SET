@@ -1,4 +1,4 @@
-name: Update Progress Tracker
+name: Update README Progress
 
 on:
   push:
@@ -6,31 +6,39 @@ on:
       - main
   workflow_dispatch:
 
-permissions:
-  contents: write   # ✅ allow pushing changes
-
 jobs:
   update-progress:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
+      - name: Count Solved Problems
+        id: count
+        run: |
+          echo "### Counting solved problems..."
+          total=0
+          table="| Category | Total | Solved |\n|----------|-------|--------|"
+          while IFS= read -r line; do
+            category=$(echo "$line" | cut -d',' -f1)
+            count=$(echo "$line" | cut -d',' -f2)
+            folder=$(echo "$category" | tr ' ' '_' | tr -d '.')
+            solved=$(find "$folder" -type f -name "*.cpp" 2>/dev/null | wc -l)
+            total=$((total + solved))
+            table="$table\n| $category | $count | $solved |"
+          done < categories.csv
+          echo -e "$table" > progress_table.md
+          echo "TOTAL_SOLVED=$total" >> $GITHUB_ENV
 
-      - name: Run progress update script
-        run: python update_progress.py
+      - name: Update README.md
+        run: |
+          awk '/<!-- PROGRESS_TABLE_START -->/{system("cat progress_table.md");next}1' README.md > README_new.md
+          mv README_new.md README.md
 
-      - name: Commit & push changes
+      - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "🔄 Update progress tracker" || echo "No changes to commit"
+          git commit -m "Update progress table: $TOTAL_SOLVED solved" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # ✅ use GitHub token
