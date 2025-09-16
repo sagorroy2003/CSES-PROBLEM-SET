@@ -58,3 +58,8 @@ Thumbs.db
 # Optional: ignore output folders
 # ----------------------------
 output/
+
+# Ignore CP helper
+.cph/
+*.cph
+
