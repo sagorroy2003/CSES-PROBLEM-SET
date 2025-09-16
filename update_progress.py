@@ -4,26 +4,26 @@ import math
 
 README_FILE = "README.md"
 
-# Updated CSES categories (2025)
+# ✅ Updated CSES categories (correct totals = 400)
 CATEGORIES = {
     "Introductory-Problems": 24,
     "Sorting-and-Searching": 35,
-    "Dynamic-Programming": 22,
-    "Graph-Algorithms": 38,
+    "Dynamic-Programming": 23,
+    "Graph-Algorithms": 36,
     "Range-Queries": 25,
     "Tree-Algorithms": 16,
-    "Mathematics": 34,
-    "String-Algorithms": 20,
+    "Mathematics": 37,
+    "String-Algorithms": 21,
     "Geometry": 16,
-    "Advanced-Techniques": 24,
+    "Advanced-Techniques": 25,
     "Sliding-Window-Problems": 11,
     "Interactive-Problems": 6,
     "Bitwise-Operations": 11,
     "Construction-Problems": 8,
-    "Advanced-Graph-Problems": 26,
-    "Counting-Problems": 19,
-    "Additional-Problems-I": 38,
-    "Additional-Problems-II": 39,
+    "Advanced-Graph-Problems": 28,
+    "Counting-Problems": 18,
+    "Additional-Problems-I": 30,
+    "Additional-Problems-II": 30,
 }
 
 TOTAL_PROBLEMS = sum(CATEGORIES.values())  # 400
@@ -59,13 +59,6 @@ def update_readme(total_solved, category_progress, solved_list):
     content = re.sub(
         r"Progress-\d+%2F\d+",
         f"Progress-{total_solved}%2F{TOTAL_PROBLEMS}",
-        content,
-    )
-
-    # Update overall progress bar
-    content = re.sub(
-        r"progress-bar.dev/\d+",
-        f"progress-bar.dev/{total_solved}/?scale={TOTAL_PROBLEMS}&title=solved&width=400&suffix=/{TOTAL_PROBLEMS}",
         content,
     )
 

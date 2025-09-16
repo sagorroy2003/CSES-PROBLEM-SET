@@ -1,7 +1,7 @@
 # 🚀 CSES Problem Set Solutions
 
 ![Language](https://img.shields.io/badge/language-C++-blue.svg)
-![Progress](https://img.shields.io/badge/Progress-0%2F412-brightgreen.svg)
+![Progress](https://img.shields.io/badge/Progress-0%2F400-brightgreen.svg)
 
 This repository contains my solutions to the **[CSES Problem Set](https://cses.fi/problemset/)**.  
 The goal is to practice **algorithms, data structures, and competitive programming** while tracking progress.
@@ -10,7 +10,7 @@ The goal is to practice **algorithms, data structures, and competitive programmi
 
 ## 📌 About
 
-The CSES Problem Set is a collection of 400 problems covering topics like:  
+The CSES Problem Set is a collection of **400 problems** covering topics like:  
 Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree Algorithms, Mathematics, String Algorithms, Geometry, Advanced Techniques, Sliding Window, Bitwise, Construction, Interactive, Counting, and Additional Problems.
 
 ---
@@ -21,30 +21,27 @@ Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree 
 |----------------------------|------:|-------:|---------|
 | Introductory Problems      | 24   | 0/24   | ░░░░░░░░░░ |
 | Sorting and Searching      | 35   | 0/35   | ░░░░░░░░░░ |
-| Dynamic Programming        | 22   | 0/22   | ░░░░░░░░░░ |
-| Graph Algorithms           | 38   | 0/38   | ░░░░░░░░░░ |
+| Dynamic Programming        | 23   | 0/23   | ░░░░░░░░░░ |
+| Graph Algorithms           | 36   | 0/36   | ░░░░░░░░░░ |
 | Range Queries              | 25   | 0/25   | ░░░░░░░░░░ |
 | Tree Algorithms            | 16   | 0/16   | ░░░░░░░░░░ |
-| Mathematics                | 34   | 0/34   | ░░░░░░░░░░ |
-| String Algorithms          | 20   | 0/20   | ░░░░░░░░░░ |
+| Mathematics                | 37   | 0/37   | ░░░░░░░░░░ |
+| String Algorithms          | 21   | 0/21   | ░░░░░░░░░░ |
 | Geometry                   | 16   | 0/16   | ░░░░░░░░░░ |
-| Advanced Techniques        | 24   | 0/24   | ░░░░░░░░░░ |
+| Advanced Techniques        | 25   | 0/25   | ░░░░░░░░░░ |
 | Sliding Window Problems    | 11   | 0/11   | ░░░░░░░░░░ |
 | Interactive Problems       | 6    | 0/6    | ░░░░░░░░░░ |
 | Bitwise Operations         | 11   | 0/11   | ░░░░░░░░░░ |
 | Construction Problems      | 8    | 0/8    | ░░░░░░░░░░ |
-| Advanced Graph Problems    | 26   | 0/26   | ░░░░░░░░░░ |
-| Counting Problems          | 19   | 0/19   | ░░░░░░░░░░ |
-| Additional Problems I      | 38   | 0/38   | ░░░░░░░░░░ |
-| Additional Problems II     | 39   | 0/39   | ░░░░░░░░░░ |
-| **Total**                  | 412  | 0/412  | ██████████ |
-|  400  | 0/400  | ░░░░░░░░░░|      |
+| Advanced Graph Problems    | 28   | 0/28   | ░░░░░░░░░░ |
+| Counting Problems          | 18   | 0/18   | ░░░░░░░░░░ |
+| Additional Problems I      | 30   | 0/30   | ░░░░░░░░░░ |
+| Additional Problems II     | 30   | 0/30   | ░░░░░░░░░░ |
+| **Total**                  | 400  | 0/400  | ██████████ |
 
 ---
 
 ### ✅ Solved Problems
-
----
 
 ---
 
