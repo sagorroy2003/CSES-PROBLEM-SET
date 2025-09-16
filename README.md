@@ -1,98 +1,39 @@
-# 🚀 CSES Problem Set Solutions
+# 📘 CSES Problem Set Solutions
 
-![Language](https://img.shields.io/badge/language-C++-blue.svg)
-![Progress](https://img.shields.io/badge/Progress-0%2F400-brightgreen.svg)
-
-This repository contains my solutions to the **[CSES Problem Set](https://cses.fi/problemset/)**.  
-The goal is to practice **algorithms, data structures, and competitive programming** while tracking progress.
+This repository contains my solutions to the [CSES Problem Set](https://cses.fi/problemset/), a collection of competitive programming problems designed to improve problem-solving skills in algorithms, data structures, and mathematics.  
 
 ---
 
-## 📌 About
+## 🚀 About This Repository
 
-The CSES Problem Set is a collection of **400 problems** covering topics like:  
-Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree Algorithms, Mathematics, String Algorithms, Geometry, Advanced Techniques, Sliding Window, Bitwise, Construction, Interactive, Counting, and Additional Problems.
+- All solutions are written in **C++**.
+- Organized by topic for easier navigation.
+- Includes explanations and approaches where possible.
 
 ---
 
 ## 📊 Progress Table
 
-| Category                  | Total | Solved | Progress |
-|----------------------------|------:|-------:|---------|
-| Introductory Problems      | 24   | 0/24   | ░░░░░░░░░░ |
-| Sorting and Searching      | 35   | 0/35   | ░░░░░░░░░░ |
-| Dynamic Programming        | 23   | 0/23   | ░░░░░░░░░░ |
-| Graph Algorithms           | 36   | 0/36   | ░░░░░░░░░░ |
-| Range Queries              | 25   | 0/25   | ░░░░░░░░░░ |
-| Tree Algorithms            | 16   | 0/16   | ░░░░░░░░░░ |
-| Mathematics                | 37   | 0/37   | ░░░░░░░░░░ |
-| String Algorithms          | 21   | 0/21   | ░░░░░░░░░░ |
-| Geometry                   | 16   | 0/16   | ░░░░░░░░░░ |
-| Advanced Techniques        | 25   | 0/25   | ░░░░░░░░░░ |
-| Sliding Window Problems    | 11   | 0/11   | ░░░░░░░░░░ |
-| Interactive Problems       | 6    | 0/6    | ░░░░░░░░░░ |
-| Bitwise Operations         | 11   | 0/11   | ░░░░░░░░░░ |
-| Construction Problems      | 8    | 0/8    | ░░░░░░░░░░ |
-| Advanced Graph Problems    | 26   | 0/26   | ░░░░░░░░░░ |
-| Counting Problems          | 19   | 0/19   | ░░░░░░░░░░ |
-| Additional Problems I      | 38   | 0/38   | ░░░░░░░░░░ |
-| Additional Problems II     | 39   | 0/39   | ░░░░░░░░░░ |
-| **Total**                  | 412  | 0/412  | ██████████ |
-|  400  | 0/400  | ░░░░░░░░░░|      |
+| Category                  | Total | Solved | Progress   |
+|---------------------------|------:|-------:|------------|
+| Introductory Problems     | 24    | 0/24   | ░░░░░░░░░░ |
+| Sorting and Searching     | 35    | 0/35   | ░░░░░░░░░░ |
+| Dynamic Programming       | 23    | 0/23   | ░░░░░░░░░░ |
+| Graph Algorithms          | 36    | 0/36   | ░░░░░░░░░░ |
+| Range Queries             | 25    | 0/25   | ░░░░░░░░░░ |
+| Tree Algorithms           | 16    | 0/16   | ░░░░░░░░░░ |
+| Mathematics               | 37    | 0/37   | ░░░░░░░░░░ |
+| String Algorithms         | 21    | 0/21   | ░░░░░░░░░░ |
+| Geometry                  | 16    | 0/16   | ░░░░░░░░░░ |
+| Advanced Techniques       | 25    | 0/25   | ░░░░░░░░░░ |
+| Sliding Window Problems   | 11    | 0/11   | ░░░░░░░░░░ |
+| Interactive Problems      | 6     | 0/6    | ░░░░░░░░░░ |
+| Bitwise Operations        | 11    | 0/11   | ░░░░░░░░░░ |
+| Construction Problems     | 8     | 0/8    | ░░░░░░░░░░ |
+| Advanced Graph Problems   | 28    | 0/28   | ░░░░░░░░░░ |
+| Counting Problems         | 18    | 0/18   | ░░░░░░░░░░ |
+| Additional Problems I     | 30    | 0/30   | ░░░░░░░░░░ |
+| Additional Problems II    | 30    | 0/30   | ░░░░░░░░░░ |
+| **Total**                 | 400   | 0/400  | ██████████ |
 
 ---
-
-### ✅ Solved Problems
-
----
-
-## 🗂️ Directory Structure
-
-├── Introductory-Problems/
-
-├── Sorting-and-Searching/
-
-├── Dynamic-Programming/
-
-├── Graph-Algorithms/
-
-├── Range-Queries/
-
-├── Tree-Algorithms/
-
-├── Mathematics/
-
-├── String-Algorithms/
-
-├── Geometry/
-
-├── Advanced-Techniques/
-
-├── Sliding-Window-Problems/
-
-├── Interactive-Problems/
-
-├── Bitwise-Operations/
-
-├── Construction-Problems/
-
-├── Advanced-Graph-Problems/
-
-├── Counting-Problems/
-
-├── Additional-Problems-I/
-
-├── Additional-Problems-II/
-
-├── update_progress.py
-
-├── README.md
-
-└── .github/
-
----
-
-## 🙌 Contributions
-
-Contributions, suggestions, and discussion are welcome!  
-Open an issue or PR if you find a bug, want to add a feature, or improve the solutions.
