@@ -1,5 +1,8 @@
-# 📊 Progress
+# 📊 CSES Progress
 
+**Username:** `sagor_roy`
+
+<!-- PROGRESS_TABLE_START -->
 | Category | Total | Solved |
 |----------|-------|--------|
 | Introductory Problems | 24 | 0 |
@@ -20,3 +23,5 @@
 | Counting Problems | 18 | 0 |
 | Additional Problems I | 30 | 0 |
 | Additional Problems II | 30 | 0 |
+| **Total** | **400** | **0** |
+<!-- PROGRESS_TABLE_END -->
