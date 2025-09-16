@@ -49,7 +49,6 @@ Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree 
 
 ## 🗂️ Directory Structure
 
-.
 ├── Introductory-Problems/
 
 ├── Sorting-and-Searching/
