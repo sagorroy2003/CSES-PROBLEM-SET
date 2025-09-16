@@ -6,11 +6,11 @@
 
 | Category | Total | Solved |
 |----------|-------|--------|
-| Introductory Problems | 24 | 0 |
-| Sorting and Searching | 35 | 0 |
+| Introductory Problems | 24 | 1 |
+| Sorting and Searching | 35 | 2 |
 | Dynamic Programming | 23 | 0 |
 | Graph Algorithms | 36 | 0 |
-| Range Queries | 25 | 0 |
+| Range Queries | 25 | 1 |
 | Tree Algorithms | 16 | 0 |
 | Mathematics | 37 | 0 |
 | String Algorithms | 21 | 0 |
