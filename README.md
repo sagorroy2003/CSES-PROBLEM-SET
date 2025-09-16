@@ -33,11 +33,12 @@ Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree 
 | Interactive Problems       | 6    | 0/6    | ░░░░░░░░░░ |
 | Bitwise Operations         | 11   | 0/11   | ░░░░░░░░░░ |
 | Construction Problems      | 8    | 0/8    | ░░░░░░░░░░ |
-| Advanced Graph Problems    | 28   | 0/28   | ░░░░░░░░░░ |
-| Counting Problems          | 18   | 0/18   | ░░░░░░░░░░ |
-| Additional Problems I      | 30   | 0/30   | ░░░░░░░░░░ |
-| Additional Problems II     | 30   | 0/30   | ░░░░░░░░░░ |
-| **Total**                  | 400  | 0/400  | ██████████ |
+| Advanced Graph Problems    | 26   | 0/26   | ░░░░░░░░░░ |
+| Counting Problems          | 19   | 0/19   | ░░░░░░░░░░ |
+| Additional Problems I      | 38   | 0/38   | ░░░░░░░░░░ |
+| Additional Problems II     | 39   | 0/39   | ░░░░░░░░░░ |
+| **Total**                  | 412  | 0/412  | ██████████ |
+|  400  | 0/400  | ░░░░░░░░░░|      |
 
 ---
 
