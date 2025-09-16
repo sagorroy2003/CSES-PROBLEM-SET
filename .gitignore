@@ -1,0 +1,60 @@
+# ----------------------------
+# Compiled files
+# ----------------------------
+*.o
+*.obj
+*.exe
+*.out
+solution
+
+# ----------------------------
+# Debug / log files
+# ----------------------------
+*.log
+*.dmp
+
+# ----------------------------
+# Backup / temporary files
+# ----------------------------
+*~
+*.swp
+*.tmp
+*.bak
+
+# ----------------------------
+# Input / output test files
+# ----------------------------
+input*.txt
+output*.txt
+
+# ----------------------------
+# Python cache files
+# ----------------------------
+__pycache__/
+*.pyc
+
+# ----------------------------
+# IDE / editor files
+# ----------------------------
+.vscode/
+*.code-workspace
+
+# ----------------------------
+# Mac system files
+# ----------------------------
+.DS_Store
+
+# ----------------------------
+# Windows system files
+# ----------------------------
+Thumbs.db
+
+# ----------------------------
+# GitHub Actions / workflow outputs (optional)
+# ----------------------------
+.github/workflows/*.yml.bak
+
+# ----------------------------
+# Optional: ignore output folders
+# ----------------------------
+output/
