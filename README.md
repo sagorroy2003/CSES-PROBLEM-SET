@@ -38,7 +38,6 @@ Sorting & Searching, Dynamic Programming, Graph Algorithms, Range Queries, Tree 
 | Additional Problems I      | 38   | 0/38   | ░░░░░░░░░░ |
 | Additional Problems II     | 39   | 0/39   | ░░░░░░░░░░ |
 | **Total**                  | 412  | 0/412  | ██████████ |
-|  400  | 0/400  | ░░░░░░░░░░ |
 
 ---
 
