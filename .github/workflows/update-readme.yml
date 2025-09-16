@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write   # ✅ allow pushing changes
+
 jobs:
   update-progress:
     runs-on: ubuntu-latest
@@ -22,16 +25,12 @@ jobs:
       - name: Run progress update script
         run: python update_progress.py
 
-      - name: Debug Git Remote
-        run: git remote -v
-
-      - name: Push changes
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
+      - name: Commit & push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${ACTIONS_PAT}@github.com/sagorroy2003/CSES-PROBLEM-SET.git
-          git add .
-          git commit -m "Update progress tracker" || echo "No changes to commit"
-          git push origin HEAD:main
+          git add README.md
+          git commit -m "🔄 Update progress tracker" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # ✅ use GitHub token
