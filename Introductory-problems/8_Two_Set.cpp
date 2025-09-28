@@ -10,53 +10,47 @@ void solve()
     ll n;
     cin >> n;
 
-    ll a = (n * (n + 1) / 2) / 2; // sum of first n natural numbers / 2
-
-    if ((n * (n + 1) / 2) % 2 != 0)
-    { // jor na hole vag kora jabe na
-        cout << "NO" << endl;
+    if (n % 4 == 1 || n % 4 == 2)
+    {
+        cout << "NO\n";
         return;
     }
 
-    vector<ll> v, v2;
+    cout << "YES\n";
 
-    for (ll i = 1; i <= n; i++)
+    vector<ll> set1, set2;
+
+    if (n % 4 == 3)
     {
-        v.push_back(i);
-    }
-
-    cout << "YES" << endl;
-
-    ll k = n - 1;
-
-    while (a > 0)
-    {
-        ll x = v[k--];
-        if (a >= x)
+        set1 = {1, 2};
+        set2 = {3};
+        for (ll i = 4; i <= n; i += 4)
         {
-            v2.push_back(x);
-            a -= x;
-            v[k + 1] = 0;
-            // v.pop_back();
-        }
-        else
-        {
-            v2.push_back(a);
-            a = 0;
+            set1.push_back(i);
+            set1.push_back(i + 3);
+            set2.push_back(i + 1);
+            set2.push_back(i + 2);
         }
     }
+    else // n % 4 == 0
+    {
+        for (ll i = 1; i <= n; i += 4)
+        {
+            set1.push_back(i);
+            set1.push_back(i + 3);
+            set2.push_back(i + 1);
+            set2.push_back(i + 2);
+        }
+    }
 
-    cout << v2.size() << endl;
-    for (auto it : v2)
-        cout << it << " ";
+    cout << set1.size() << endl;
+    for (ll x : set1)
+        cout << x << " ";
     cout << endl;
 
-    cout << v.size() - v2.size() << endl;
-    for (auto it : v)
-    {
-        if (it != 0)
-            cout << it << " ";
-    }
+    cout << set2.size() << endl;
+    for (ll x : set2)
+        cout << x << " ";
     cout << endl;
 }
 
